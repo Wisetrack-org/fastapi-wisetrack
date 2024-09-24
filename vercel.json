@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "fast_api.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/fast_api.py"
+      }
+    ],
+    "env": {
+      "APP_MODULE": "fast_api:app"
+    }
+  }

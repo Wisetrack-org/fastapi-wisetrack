@@ -1,0 +1,20 @@
+# Python virtual environment
+myenv/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+Dockerfile
