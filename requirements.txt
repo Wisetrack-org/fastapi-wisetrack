@@ -103,3 +103,6 @@
 # tzdata==2023.3
 # uvicorn==0.22.0
 # xgboost==2.1.1
+uvicorn 
+fastapi
+
