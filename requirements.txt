@@ -109,3 +109,5 @@ joblib
 pandas
 mysql-connector-python
 dotenv
+imbalanced-learn
+
